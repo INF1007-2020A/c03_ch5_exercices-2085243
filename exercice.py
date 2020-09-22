@@ -38,11 +38,15 @@ def factorial(number: int) -> int:
 
 def use_continue():
     i = 0
-    for i in range(11):
+    for i in range (10):
+        i+=1
         if i==5:
             continue
         else:
             print(i)
+
+
+
 
 
 
